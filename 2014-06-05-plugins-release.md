@@ -85,7 +85,7 @@ Other changes include:
 * CB-6528 allow scroll on alert message content 
 * CB-6491 add CONTRIBUTING.md
 * Added check for `isFinishing()` on the parent activity to prevent crashes when trying to display dialogs when activity is in this phase of it's lifecycle
-* CB-6628 **Amazon FireOS** dialogs plugin's confirm and prompt methods dont work `confirm()` method was missing **Amazon FireOS** platform check. Added that. `prompt()` method had bug. It is executed in a worker thread that does not have a message queue(or Looper object) associated with it and hence "can't create a handler" exception is thrown. To fix this issue, we need to create the `EditText` widget from within the UI thread. This was fixed sometime ago when we added fireos platform but commit got lost somewhere. So fixing it again now.
+* CB-6628 **Amazon FireOS** dialogs plugin's confirm and prompt methods don't work `confirm()` method was missing **Amazon FireOS** platform check. Added that. `prompt()` method had bug. It is executed in a worker thread that does not have a message queue(or Looper object) associated with it and hence "can't create a handler" exception is thrown. To fix this issue, we need to create the `EditText` widget from within the UI thread. This was fixed sometime ago when we added fireos platform but commit got lost somewhere. So fixing it again now.
 * CB-4966 Dialogs are in window now. No need to add anything to `manifest` or `index.html`
 * Removing **Firefox OS** quirks. No need to add special permission (it's different API with the same name). `Notification.css` is added automatically
 
@@ -138,7 +138,7 @@ Other changes include:
 * CB-6491 add CONTRIBUTING.md
 
 `org.apache.cordova.inappbrowser@0.5.0`
-* CB-6127 Spanish and rench Translations added.
+* CB-6127 Spanish and French Translations added.
 * CB-6806 Add license
 * CB-6491 add CONTRIBUTING.md
 * CB-6474 InAppBrowser. Add data urls support to **WP8**
@@ -187,7 +187,7 @@ Other changes include:
 * CB-6812 Add license
 * CB-6491 add CONTRIBUTING.md
 * CB-6264 minor formatting issue
-* Update docs with recent **WP** changes, remove 'clear' from the loist of named colors in documentation
+* Update docs with recent **WP** changes, remove 'clear' from the list of named colors in documentation
 * CB-6513 - Statusbar plugin for Android is not compiling
 
 `org.apache.cordova.vibration@0.3.9`
