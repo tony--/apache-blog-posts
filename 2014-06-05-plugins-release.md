@@ -28,8 +28,11 @@ The following plugins were updated today:
 * cordova-plugin-vibration: 0.3.9
 
 Notable changes include:
-* Several bugfixes to the `file` plugin. Includes updated support for **BlackBerry 10**, **Firefox OS**, **Ubuntu** and **Windows 8**.
 * Every plugin now has its own license file and how to contribute document
+* Several File plugin changes:
+  * Initial implementation for Firefox OS
+  * Important platform-specific paths now exposed as properties on `cordova.file.*` (iOS & Android, refer to docs)
+  * Several bug fixes (across most platforms)
 
 The plugins have been updated on our registry at [plugins.cordova.io](http://plugins.cordova.io/).
 
@@ -78,14 +81,13 @@ Other changes include:
 
 `org.apache.cordova.dialogs@0.2.8`
 * [CB-6801](https://issues.apache.org/jira/browse/CB-6801) Add license
-* running original `windows.open`, `inAppBrowser` is overriding it no need to place CSS in every page anymore
+* Running original `windows.open`, `inAppBrowser` is overriding it no need to place CSS in every page anymore
 * [CB-5945](https://issues.apache.org/jira/browse/CB-5945) **Windows8** do not call success callbacks until dialog is dismissed
 * [CB-4616](https://issues.apache.org/jira/browse/CB-4616) Returned index 0 was not documented for `notification.prompt`
-* update docs to state that `prompt` is supported on **Windows Phone**
+* Update docs to state that `prompt` is supported on **Windows Phone**
 * [CB-6528](https://issues.apache.org/jira/browse/CB-6528) allow scroll on alert message content 
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
-* Added check for `isFinishing()` on the parent activity to prevent crashes when trying to display dialogs when activity is in this phase of it's lifecycle
-* [CB-6628](https://issues.apache.org/jira/browse/CB-6628) **Amazon FireOS** dialogs plugin's confirm and prompt methods don't work `confirm()` method was missing **Amazon FireOS** platform check. Added that. `prompt()` method had bug. It is executed in a worker thread that does not have a message queue(or Looper object) associated with it and hence "can't create a handler" exception is thrown. To fix this issue, we need to create the `EditText` widget from within the UI thread. This was fixed sometime ago when we added fireos platform but commit got lost somewhere. So fixing it again now.
+* [CB-6628](https://issues.apache.org/jira/browse/CB-6628) **Amazon FireOS** Fix `confirm` and `prompt`
 * [CB-4966](https://issues.apache.org/jira/browse/CB-4966) Dialogs are in window now. No need to add anything to `manifest` or `index.html`
 * Removing **Firefox OS** quirks. No need to add special permission (it's different API with the same name). `Notification.css` is added automatically
 
@@ -114,7 +116,7 @@ Other changes include:
 * **Ubuntu** support `cdvfile URI`
 * [CB-6802](https://issues.apache.org/jira/browse/CB-6802) Add license
 * Upload progress now works also for second file
-* [CB-6706](https://issues.apache.org/jira/browse/CB-6706): Relax dependency on file plugin
+* [CB-6706](https://issues.apache.org/jira/browse/CB-6706) Relax dependency on file plugin
 * [CB-3440](https://issues.apache.org/jira/browse/CB-3440) **BlackBerry10** Update implementation to use modules from file plugin
 * [CB-6378](https://issues.apache.org/jira/browse/CB-6378) Use `connection.disconnect()` instead of `stream.close()` for thread-safety
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
@@ -124,10 +126,9 @@ Other changes include:
 `org.apache.cordova.geolocation@0.3.8`
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Spanish and French Translations added.
 * [CB-6804](https://issues.apache.org/jira/browse/CB-6804) Add license
-* [CB-5416](https://issues.apache.org/jira/browse/CB-5416) - Adding support for auto-managing permissions
+* [CB-5416](https://issues.apache.org/jira/browse/CB-5416) Adding support for auto-managing permissions
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
-* proper implementation for **Firefox OS**
-* call **Firefox OS's** `getCurrentProxy` added
+* Proper implementation for **Firefox OS**
 
 `org.apache.cordova.globalization@0.2.8`
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Spanish and French Translations added.
@@ -141,19 +142,19 @@ Other changes include:
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Spanish and French Translations added.
 * [CB-6806](https://issues.apache.org/jira/browse/CB-6806) Add license
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
-* [CB-6474](https://issues.apache.org/jira/browse/CB-6474) InAppBrowser. Add data urls support to **WP8**
+* [CB-6474](https://issues.apache.org/jira/browse/CB-6474) Add data urls support to **WP8**
 * [CB-6482](https://issues.apache.org/jira/browse/CB-6482) InAppBrowser calls incorrect callback on **WP8**
 * Fixed use of iOS 6 deprecated methods
-* [CB-6360](https://issues.apache.org/jira/browse/CB-6360) - improvement: feature detection instead of iOS version detection
-* [CB-5649](https://issues.apache.org/jira/browse/CB-5649) - InAppBrowser overrides App's orientation
+* [CB-6360](https://issues.apache.org/jira/browse/CB-6360) Feature detection instead of iOS version detection
+* [CB-5649](https://issues.apache.org/jira/browse/CB-5649) InAppBrowser overrides App's orientation
 * [CB-6396](https://issues.apache.org/jira/browse/CB-6396) **Firefox OS** Adding basic support
 
 `org.apache.cordova.media@0.2.11`
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Spanish and French Translations added.
 * [CB-6807](https://issues.apache.org/jira/browse/CB-6807) Add license
-* [CB-6706](https://issues.apache.org/jira/browse/CB-6706): Relax dependency on file plugin
-* [CB-6478](https://issues.apache.org/jira/browse/CB-6478): Fix exception when try to record audio file on **Windows 8**
-* [CB-6477](https://issues.apache.org/jira/browse/CB-6477): Add `musicLibrary` and `microphone` capabilities to **Windows 8**
+* [CB-6706](https://issues.apache.org/jira/browse/CB-6706) Relax dependency on file plugin
+* [CB-6478](https://issues.apache.org/jira/browse/CB-6478) Fix exception when try to record audio file on **Windows 8**
+* [CB-6477](https://issues.apache.org/jira/browse/CB-6477) Add `musicLibrary` and `microphone` capabilities to **Windows 8**
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
 
 `org.apache.cordova.media-capture@0.3.1`
@@ -161,11 +162,10 @@ Other changes include:
 * Remove deprecated symbols for iOS < 6
 * Fixes `captureTasks UI URIs`
 * [CB-6808](https://issues.apache.org/jira/browse/CB-6808) Add license
-* [CB-6706](https://issues.apache.org/jira/browse/CB-6706): Relax dependency on file plugin
+* [CB-6706](https://issues.apache.org/jira/browse/CB-6706) Relax dependency on file plugin
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
 
 `org.apache.cordova.network-information@0.2.9`
-* updated notice file to include missing license
 * Cached extra info to better detect changes.
 * [CB-6809](https://issues.apache.org/jira/browse/CB-6809) Add license to CONTRIBUTING.md
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
@@ -180,19 +180,15 @@ Other changes include:
 * **wp** plugin must be autoloaded for `AutoHideSplashScreen` preference to work
 * [CB-6483](https://issues.apache.org/jira/browse/CB-6483) Use splash screen image from manifest on **Windows8**
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
-* Revert "Merge branch 'tizen' of http://github.com/siovene/cordova-plugin-splashscreen"
 
 `org.apache.cordova.statusbar@0.1.6`
 * [CB-6783](https://issues.apache.org/jira/browse/CB-6783) - added `StatusBarStyle` config preference,  updated docs
 * [CB-6812](https://issues.apache.org/jira/browse/CB-6812) Add license
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
-* [CB-6264](https://issues.apache.org/jira/browse/CB-6264) minor formatting issue
 * Update docs with recent **WP** changes, remove 'clear' from the list of named colors in documentation
 * [CB-6513](https://issues.apache.org/jira/browse/CB-6513) - Statusbar plugin for Android is not compiling
 
 `org.apache.cordova.vibration@0.3.9`
-* updated notice file
 * Extended `vibrateWithPattern` to allow for pattern repetition, implemented a complementary `cancelVibration` function and adapted documentation.
 * Implemented `vibrateWithPattern` (for **Android**) and adapted documentation.
-* [CB-6811](https://issues.apache.org/jira/browse/CB-6811) Add license to CONTRIBUTING.md
 * [CB-6491](https://issues.apache.org/jira/browse/CB-6491) add CONTRIBUTING.md
