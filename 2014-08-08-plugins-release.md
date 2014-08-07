@@ -52,7 +52,7 @@ org.apache.cordova.battery-status@0.2.10
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Updated translations for docs
 
 org.apache.cordova.camera@0.3.1
-* **FFOS** update `CameraProxy.js`
+* **FirefoxOS** update `CameraProxy.js`
 * [CB-7187](https://issues.apache.org/jira/browse/CB-7187) **iOS**: Add explicit dependency on `CoreLocation.framework`
 * **BlackBerry10** Doc correction - `sourceType` is supported
 * [CB-7071](https://issues.apache.org/jira/browse/CB-7071) **Android**: Fix callback firing before `CROP` intent is sent when `allowEdit=true`
@@ -111,10 +111,10 @@ org.apache.cordova.file@1.3.0
 * [CB-7057](https://issues.apache.org/jira/browse/CB-7057) Docs update: elaborate on what directories are for
 * [CB-7093](https://issues.apache.org/jira/browse/CB-7093): Add `JS module` to `plugin.xml` file for auto-tests
 * [CB-7093](https://issues.apache.org/jira/browse/CB-7093) Ported automated file tests
-* **WINDOWS** remove extra function closure, not    needed
-* **WINDOWS** remove check for undefined `fail()`, it is defined by the proxy and always exists
-* **WINDOWS** re-apply `readAsBinaryString` and `readAsArrayBuffer`
-* **WINDOWS** Moved similar calls to be the same calls, aliased long namespaced functions
+* **Windows** remove extra function closure, not    needed
+* **Windows** remove check for undefined `fail()`, it is defined by the proxy and always exists
+* **Windows** re-apply `readAsBinaryString` and `readAsArrayBuffer`
+* **Windows** Moved similar calls to be the same calls, aliased long namespaced functions
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Updated translations for docs.
 * [CB-6571](https://issues.apache.org/jira/browse/CB-6571) Fix `getParentForLocalURL` to work correctly with directories with trailing '/' (This closes #58)
 * `UTTypeCopyPreferredTagWithClass` returns `nil mimetype` for css when there is no network
