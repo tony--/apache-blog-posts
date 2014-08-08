@@ -174,7 +174,7 @@ org.apache.cordova.media@0.2.12
 * code `#s` for `MediaError`
 
 org.apache.cordova.media-capture@0.3.2
-* **Ubuntu**: fix compler warnings
+* **Ubuntu**: fix compiler warnings
 * **Ubuntu**: support `qt 5.2`
 * [CB-6127](https://issues.apache.org/jira/browse/CB-6127) Updated translations for docs
 * [CB-6978](https://issues.apache.org/jira/browse/CB-6978) `captureImage()` function fails in **Android**
