@@ -132,7 +132,7 @@ org.apache.cordova.file@1.3.0
 * [CB-6890](https://issues.apache.org/jira/browse/CB-6890): Fix `pluginManager` access for 4.0.x branch
 
 org.apache.cordova.file-transfer@0.4.5
-* Upload parameters out of order
+* Fixed documentation of parameter order for `FileTransfer.upload`
 * **FirefoxOS** initial implementation
 * [CB-6781](https://issues.apache.org/jira/browse/CB-6781): Expose `FileTransferError.exception` to application
 * [CB-6928](https://issues.apache.org/jira/browse/CB-6928): Add new error code to documentation
