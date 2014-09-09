@@ -36,7 +36,7 @@ Other changes include:
 * [CB-1826](https://issues.apache.org/jira/browse/CB-1826) Catch OOM on gallery image resize
 
 `org.apache.cordova.contacts@0.2.9`
-* [CB-6086](https://issues.apache.org/jira/browse/CB-6086) Fix typo in ffos part of plugin.xml: Camera -> Contacts
+* [CB-6086](https://issues.apache.org/jira/browse/CB-6086) Fix typo in FxOS part of plugin.xml: Camera -> Contacts
 * [CB-5994](https://issues.apache.org/jira/browse/CB-5994) Switch Contact ID lookup to use Raw contact id.
 
 `org.apache.cordova.file@1.0.1`
