@@ -10,7 +10,7 @@
 
 `org.apache.cordova.camera@0.3.2`
 ### 0.3.2 (Sep 17, 2014)
-* CB-7551 [Camera][iOS 8] Scaled images show a white line
+* CB-7551 \[Camera\]\[iOS 8\] Scaled images show a white line
 * CB-7558 hasPendingOperation flag in Camera plugin's takePicture should be reversed to fix memory errors
 * CB-7557 Camera plugin tests is missing a File dependency
 * CB-7423 do cleanup after copyImage manual test
@@ -36,7 +36,7 @@
 * add documentation for manual tests
 * Updated docs for browser
 * Added support for the browser
-* CB-7286 [BlackBerry10] Use getUserMedia if camera card is unavailable
+* CB-7286 \[BlackBerry10\] Use getUserMedia if camera card is unavailable
 * CB-7180 Update Camera plugin to support generic plugin webView UIView (which can be either a UIWebView or WKWebView)
 * Renamed test dir, added nested plugin.xml
 * CB-6958 added manual tests
@@ -48,9 +48,9 @@
 
 `org.apache.cordova.contacts@0.2.13`
 ### 0.2.13 (Sep 17, 2014)
-* CB-7546 [Contacts][iOS] pickContact shows exception in the console log
+* CB-7546 \[Contacts\]\[iOS\] pickContact shows exception in the console log
 * CB-6374 Fix iOS 6 deprecation warnings in Contacts
-* CB-7544 [Contacts][iOS 8] Contact picker is read-only in iOS 8
+* CB-7544 \[Contacts\]\[iOS 8\] Contact picker is read-only in iOS 8
 * CB-7523 Fixing "ContactFieldType" error in the config.xml
 * CB-6724 Empty may be expected.
 * CB-7249 cordova-plugin-contacts documentation translation
@@ -70,9 +70,9 @@
 ### 0.2.12 (Sep 17, 2014)
 * CB-7471 cordova-plugin-device documentation translation
 * CB-7552 device.name docs have not been removed
-* [fxos] Fix cordova version
+* \[fxos\] Fix cordova version
 * added status box and documentation to manual tests
-* [fxos] Fix cordova version
+* \[fxos\] Fix cordova version
 * added status box and documentation to manual tests
 * Added plugin support for the browser
 * CB-7262 Adds support for universal windows apps.
@@ -125,19 +125,19 @@
 * CB-7272 Replace confusing "r/o" abbreviation with just "r"
 * CB-7423 encode path before attempting to resolve
 * CB-7375 Fix the filesystem name in resolveLocalFileSystemUri
-* CB-7445 [BlackBerry10] resolveLocalFileSystemURI - change DEFAULT_SIZE to MAX_SIZE
-* CB-7458 [BlackBerry10] resolveLocalFileSystemURL - add filesystem property
-* CB-7445 [BlackBerry10] Add default file system size to prevent quota exceeded error on initial install
+* CB-7445 \[BlackBerry10\] resolveLocalFileSystemURI - change DEFAULT_SIZE to MAX_SIZE
+* CB-7458 \[BlackBerry10\] resolveLocalFileSystemURL - add filesystem property
+* CB-7445 \[BlackBerry10\] Add default file system size to prevent quota exceeded error on initial install
 * CB-7431 Avoid calling done() twice in file.spec.109 test
 * CB-7413 Adds support of 'ms-appdata://' URIs
-* CB-7422 [File Tests] Use proper fileSystem to create fullPath
-* CB-7375 [Entry] get proper filesystem in Entry
+* CB-7422 \[File Tests\] Use proper fileSystem to create fullPath
+* CB-7375 \[Entry\] get proper filesystem in Entry
 * Amazon related changes.
 * CB-7375 Remove leading slash statement from condition
 * Refactored much of the logic in FileMetadata constructor.  Directory.size will return 0
-* CB-7419 [WP8] Added support to get metada from dir
-* CB-7418 [DirectoryEntry] Added fullPath variable as part of condition
-* CB-7417 [File tests] added proper matcher to compare fullPath property
+* CB-7419 \[WP8\] Added support to get metada from dir
+* CB-7418 \[DirectoryEntry\] Added fullPath variable as part of condition
+* CB-7417 \[File tests\] added proper matcher to compare fullPath property
 * CB-7375 Partial revert to resolve WP8 failures
 * Overwrite existing file on getFile when create is true
 * CB-7375 CB-6148: Ensure that return values from copy and move operations reference the correct filesystem
@@ -160,7 +160,7 @@
 * Amazon related changes.
 * Remove dupe file windows+windows8 both use the same one
 * CB-7316 Updates docs with actual information.
-* CB-7316 Adds support for Windows platform, moves *Proxy files to proper directory.
+* CB-7316 Adds support for Windows platform, moves \*Proxy files to proper directory.
 * CB-7316 Improves current specs compatibility:
 * added documentation for new test
 * CB-6466 Fix failing test due to recent url change
@@ -189,10 +189,10 @@
 
 `org.apache.cordova.globalization@0.3.1`
 ### 0.3.1 (Sep 17, 2014)
-* CB-6490 [BlackBerry10] Use hyphen instead of underscore in getLocaleName().
-* CB-7548 [BlackBerry10] Allow any numeric type as date in dateToString method.
+* CB-6490 \[BlackBerry10\] Use hyphen instead of underscore in getLocaleName().
+* CB-7548 \[BlackBerry10\] Allow any numeric type as date in dateToString method.
 * Hold the information if L10n was ready before.
-* CB-7233 [BlackBerry10] Globalization is now supported
+* CB-7233 \[BlackBerry10\] Globalization is now supported
 * Renamed test dir, added nested plugin.xml
 * Clean-up: removed duplicate code
 * Added test to complete CB-7064, added tests that check for W3C compliance in language tags generated from PreferredLanguage and GetLocale methods
@@ -209,8 +209,8 @@
 * CB-7133 fix up the tests for Android
 * Add just a bit more logging
 * CB-7133 port inappbrowser to plugin-test-framework
-* phonegap events supported for _blank target
-* inappbrowser _blank target position is fixed
+* phonegap events supported for \_blank target
+* inappbrowser \_blank target position is fixed
 * amazon-fireos related changes.
 
 `org.apache.cordova.media@0.2.13`
@@ -248,7 +248,7 @@
 
 `org.apache.cordova.statusbar@0.1.8`
 ### 0.1.8 (Sep 17, 2014)
-* CB-7549 [StatusBar][iOS 8] Landscape issue
+* CB-7549 \[StatusBar\]\[iOS 8\] Landscape issue
 * CB-7486 Remove StatusBarBackgroundColor intial preference (black background) so background will be initially transparent
 * Renamed test dir, added nested plugin.xml
 * added documentation for manual tests, moved background color test below overlay test
@@ -277,8 +277,8 @@
 * Updated doc with Windows support for vibrate with pattern
 * Added note to doc about w3c alignment and min time for Windows
 * update doc with another way to cancel vibration
-* update doc to show vibrate([num]) is a standard vibrate
-* vibrate([num]) is treated as a vibrate not vibrate with pattern
+* update doc to show vibrate(\[num\]) is a standard vibrate
+* vibrate(\[num\]) is treated as a vibrate not vibrate with pattern
 * added new example to documentation
 * updated doc for w3c alignment
 * changes to how 0 is getting added to array in order to align with w3c spec
