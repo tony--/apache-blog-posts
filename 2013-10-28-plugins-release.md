@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "CLI, Plugman & Plugins Release: Oct 28, 2013"
+title:  "CLI, Plugman &amp; Plugins Release: Oct 28, 2013"
 categories: news
 tags: release
 ---
