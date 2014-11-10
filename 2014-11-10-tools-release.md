@@ -39,6 +39,9 @@ When adding these platforms to your project, the following versions are now used
 * [CB-7033](https://issues.apache.org/jira/browse/CB-7033) Improve `cordova platform check`
 * [CB-7311](https://issues.apache.org/jira/browse/CB-7311) Fix **XCode** project manipulation on **Windows** host
 * [CB-7820](https://issues.apache.org/jira/browse/CB-7820) Make `cordova platfrom restore` not stop if a platform fails to restore
+* [CB-7649](https://issues.apache.org/jira/browse/CB-7649) Support iPhone 6 Plus Icon in CLI config.xml
+* [CB-7647](https://issues.apache.org/jira/browse/CB-7647) Support new iPhone 6 and 6 Plus Images in the CLI config.xml
+* [CB-7909](https://issues.apache.org/jira/browse/CB-7909) "plugman platform add" fixes
 * Enable platform-specific id for **Android** and **iOS**
 * Check for a `CORDOVA_HOME` environment variable to create a global config path
 
