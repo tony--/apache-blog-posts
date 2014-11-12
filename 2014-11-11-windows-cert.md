@@ -3,7 +3,7 @@ layout: post
 author:
     name: Parashuram
     url: https://twitter.com/nparashuram
-title:  "Automating Performance Audits for Cordova apps"
+title:  "Critical Update: Windows 3.7.1. Release"
 categories: news
 tags: news release 
 ---
