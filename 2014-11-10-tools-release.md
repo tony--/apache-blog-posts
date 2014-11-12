@@ -3,15 +3,15 @@ layout: post
 author:
     name: Mark Koudritsky
     url: https://github.com/kamrik
-title:  "Tools Release: November 10, 2014"
+title:  "Tools Release: November 13, 2014"
 categories: news
 tags: release tools
 ---
 New versions of cordova tools are now live!
 
-* [cordova-lib@4.1.1](https://www.npmjs.org/package/cordova-lib)
-* [cordova@4.1.1](https://www.npmjs.org/package/cordova)
-* [plugman@0.22.15](https://www.npmjs.org/package/plugman)
+* [cordova-lib@4.1.2](https://www.npmjs.org/package/cordova-lib)
+* [cordova@4.1.2](https://www.npmjs.org/package/cordova)
+* [plugman@0.22.16](https://www.npmjs.org/package/plugman)
 * [cordova-js@3.7.2](https://www.npmjs.org/package/cordova-js)
 
 To update your tools:
@@ -25,9 +25,12 @@ Changes include:
 ## Platform updates
 When adding these platforms to your project, the following versions are now used by default. These platform versions were released recently, and the tools' defaults were updated.
 * [Cordova iOS 3.7.0](http://cordova.apache.org/announcements/2014/11/06/cordova-ios-3.7.0.html)
-* [Cordova Windows & WP8 3.7.0](http://cordova.apache.org/announcements/2014/11/06/cordova-wp-windows-3.7.0.html)
+* [Cordova WP8 3.7.0](http://cordova.apache.org/announcements/2014/11/06/cordova-wp-windows-3.7.0.html)
+* **Cordova Windows 3.7.1** - see [3.7.0 release](http://cordova.apache.org/announcements/2014/11/06/cordova-wp-windows-3.7.0.html) and the [3.7.1 update](http://cordova.apache.org/news/2014/11/11/windows-cert.html) posts
 
 ## cordova-lib
+* [CB-7079](https://issues.apache.org/jira/browse/CB-7079) Allow special characters and digits in id when publishing to plugins registry
+* [CB-8004](https://issues.apache.org/jira/browse/CB-8004) Use **Windows 3.7.1** Release
 * [CB-7988](https://issues.apache.org/jira/browse/CB-7988) Update platform versions for **iOS**, **WP8** & **Windows** to **3.7.0**
 * [CB-7846](https://issues.apache.org/jira/browse/CB-7846) Fix plugin deletion when a dependent plugin does not exist
 * [CB-6992](https://issues.apache.org/jira/browse/CB-6992) Fix build issue on **iOS** when app name contains accented characters
