@@ -16,8 +16,13 @@ New versions of cordova tools are now live!
 
 To update your tools:
 
-    npm install -g cordova
-    npm install -g plugman
+  * If you have `cordova` installed:
+
+        npm install -g cordova
+
+  * If you have `plugman` installed:
+
+        npm install -g plugman
 
 Changes include:
 <!--more-->
