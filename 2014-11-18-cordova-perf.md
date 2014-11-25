@@ -16,7 +16,7 @@ The latest versions of Android and iOS WebViews can connect to and leverage deve
 ![Chrome Developer tools - profiling](http://i.imgur.com/zR2f1.gif)   
 
 Articles (like [this](http://aerotwist.com/blog/my-performance-audit-workflow/) and [this](http://calendar.perfplanet.com/2013/the-runtime-performance-checklist/)) articulate the typical workflow for auditing performance of webpages. Similar principles can be applied to apps too. 
-
+<!--more-->
 # Automating Performance measurements
 With rapid development and release cycles of apps, it becomes hard to do regular performance audits. Automating the process with tools would ensure that we have a handle on the performance of the app. 
 
@@ -27,39 +27,36 @@ To start testing your Cordova app for iOS, you would need to `npm install` [Appi
 
 You can then use the following NodeJS snippet to run a simple test. In the example, a value is typed entered into a text box, and a button is clicked. 
 
-```javascript
-var browserPerf = require('browser-perf');
-browserPerf(undefined, function(err, res) {
-    if (err) {
-        console.log('An error occured');
-    } else {
-        console.log('Result is ', res);
-    }
-}, {
-    selenium: "http://localhost:4723/wd/hub",
-    browsers: [{
-        platformName: "iOS",
-        platformVersion: "8.0",
-        deviceName: "iPhone Simulator",
-        app: "~/cordovaapp/platforms/ios/build/emulator/HelloCordova.app",
-        bundleId: "io.cordova.hellocordova",
-        autoWebview: true
-    }],
-    log: console.log.bind(console),
-    actions: [
-        function(browser) {
-            return browser.elementById('count').then(function(el) {
-                el.type(1000);
-            }).then(function() {
-                return browser.elementById('checkout');
-            }).then(function(el) {
-                return el.click();
-            });
+    var browserPerf = require('browser-perf');
+    browserPerf(undefined, function(err, res) {
+        if (err) {
+            console.log('An error occured');
+        } else {
+            console.log('Result is ', res);
         }
-    ]
-});
-
-```
+    }, {
+        selenium: "http://localhost:4723/wd/hub",
+        browsers: [{
+            platformName: "iOS",
+            platformVersion: "8.0",
+            deviceName: "iPhone Simulator",
+            app: "~/cordovaapp/platforms/ios/build/emulator/HelloCordova.app",
+            bundleId: "io.cordova.hellocordova",
+            autoWebview: true
+        }],
+        log: console.log.bind(console),
+        actions: [
+            function(browser) {
+                return browser.elementById('count').then(function(el) {
+                    el.type(1000);
+                }).then(function() {
+                    return browser.elementById('checkout');
+                }).then(function(el) {
+                    return el.click();
+                });
+            }
+        ]
+    });
 
 Additional user interactions can be used instead of typing and clicking by following the guide on [this page](https://github.com/axemclion/browser-perf/wiki/Node-Module---API#actions). 
 
