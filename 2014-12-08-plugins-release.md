@@ -54,7 +54,6 @@ org.apache.cordova.contacts@0.2.15
 
 * [CB-7131](https://issues.apache.org/jira/browse/CB-7131) **Android** Check for profile photo existance
 * [CB-7896](https://issues.apache.org/jira/browse/CB-7896) Better way to detect **Windows** and **WindowsPhone8.1**
-* [CB-7896](https://issues.apache.org/jira/browse/CB-7896) Pending tests for `Save` and `Find` methods for **Windows** cause they are not supported yet
 * [CB-7772](https://issues.apache.org/jira/browse/CB-7772) **iOS** Cancelling `pickContact` should call the error callback, not the success callback
 * [CB-7761](https://issues.apache.org/jira/browse/CB-7761) Misleading text in documentation
 * [CB-7762](https://issues.apache.org/jira/browse/CB-7762) Parameter list is incorrect for `contacts.find`
@@ -70,9 +69,9 @@ org.apache.cordova.device-motion@0.2.11
 * Renamed **Windows8** -> **Windows**
 
 org.apache.cordova.dialogs@0.2.11
+
 * [CB-7737](https://issues.apache.org/jira/browse/CB-7737) **Windows Phone** Lower min height for alert
 * [CB-8038](https://issues.apache.org/jira/browse/CB-8038) Backslash getting escaped twice in **BlackBerry 10**
-* [CB-8029](https://issues.apache.org/jira/browse/CB-8029) Test 1-based indexing for confirm
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) Update docs + manual tests
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) **Windows 8** Revert back `isAlertShowing` flag in case of exception to prevent queuing of future dialogs.
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) Handle button labels as array on windows
@@ -84,7 +83,6 @@ org.apache.cordova.dialogs@0.2.11
 org.apache.cordova.file@1.3.2
 
 * **Android** Gets rid of thread block error in File plugin
-* [CB-7917](https://issues.apache.org/jira/browse/CB-7917) Made tests file.spec.114 - 116 pass for **Windows** platform
 * [CB-7602](https://issues.apache.org/jira/browse/CB-7602) **Android** Fix `isCopyOnItself` logic
 * Use one proxy for both **Windows** and **Windows8** platforms
 * [CB-6994](https://issues.apache.org/jira/browse/CB-6994) **Windows** Fixes result, returned by proxy's write method
@@ -99,9 +97,6 @@ org.apache.cordova.file@1.3.2
 org.apache.cordova.file-transfer@0.4.8
 
 * [CB-8021](https://issues.apache.org/jira/browse/CB-8021) Adds documentation for `httpMethod` to `doc/index.md`.
-* [CB-7223](https://issues.apache.org/jira/browse/CB-7223) `spec.27` marked pending for **wp8**
-* [CB-6900](https://issues.apache.org/jira/browse/CB-6900) Fixed `spec.7` for **wp8**
-* [CB-7944](https://issues.apache.org/jira/browse/CB-7944) Pended unsupported auto tests for **Windows**
 
 org.apache.cordova.geolocation@0.3.11
 
@@ -122,7 +117,6 @@ org.apache.cordova.inappbrowser@0.5.4
 * [CB-7695](https://issues.apache.org/jira/browse/CB-7695) Fix `InAppBrowser` `injectScriptFile` for **Windows 8.1** / **Windows Phone 8.1**
 * [CB-7692](https://issues.apache.org/jira/browse/CB-7692) **Windows 8.1** `InAppBrowser` local url opening bug in 8.1
 * [CB-7688](https://issues.apache.org/jira/browse/CB-7688) `Alert` is not supported in `InAppBrowser` on **Windows** platform
-* [CB-7876](https://issues.apache.org/jira/browse/CB-7876) Change test target to avoid undesired redirects
 * [CB-7712](https://issues.apache.org/jira/browse/CB-7712) **Android** Remove references to `closebuttoncaption`
 * [CB-7850](https://issues.apache.org/jira/browse/CB-7850) Clarify role of whitelist
 * [CB-7720](https://issues.apache.org/jira/browse/CB-7720) Check if event is null since OK string from success callback was removed
@@ -131,7 +125,6 @@ org.apache.cordova.media@0.2.15
 
 * [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android** Add docs for volume control behaviour, and fix controls not being reset on page navigation
 * [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android** Make volume buttons control music stream while any audio players are created
-* [CB-7945](https://issues.apache.org/jira/browse/CB-7945) Made media.spec.15 and media.spec.16 auto tests green
 
 org.apache.cordova.media-capture@0.3.5
 
