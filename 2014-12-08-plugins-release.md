@@ -49,8 +49,8 @@ org.apache.cordova.camera@0.3.4
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
 * [CB-7979](https://issues.apache.org/jira/browse/CB-7979) Each plugin doc should have a ## Installation section
 * Fix memory leak of image data in `imagePickerControllerReturnImageResult`
-* Pass uri to crop instead of pulling the low resolution image out of the intent return (close #43)
-* Add orientation support for PNG to Android (closes #45)
+* Pass uri to crop instead of pulling the low resolution image out of the intent return
+* Add orientation support for PNG to Android
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-camera documentation translation: cordova-plugin-camera
 
 org.apache.cordova.console@0.2.12
@@ -169,7 +169,7 @@ org.apache.cordova.network-information@0.2.14
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-network-information documentation translation: cordova-plugin-network-information
 
 org.apache.cordova.splashscreen@0.3.5
-* [CB-7204](https://issues.apache.org/jira/browse/CB-7204) - Race condition when hiding and showing spinner (closes #21)
+* [CB-7204](https://issues.apache.org/jira/browse/CB-7204) - Race condition when hiding and showing spinner
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-splashscreen documentation translation: cordova-plugin-splashscreen
 
 org.apache.cordova.statusbar@0.1.9
@@ -180,7 +180,7 @@ org.apache.cordova.statusbar@0.1.9
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
 * [CB-7979](https://issues.apache.org/jira/browse/CB-7979) Each plugin doc should have a ## Installation section
 * Inserting leading space after # for consistency
-* [CB-7549](https://issues.apache.org/jira/browse/CB-7549) - (Re-fix) `StatusBar` **iOS 8** Landscape issue (closes #15)
+* [CB-7549](https://issues.apache.org/jira/browse/CB-7549) - (Re-fix) `StatusBar` **iOS 8** Landscape issue
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-statusbar documentation translation: cordova-plugin-statusbar
 * [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
