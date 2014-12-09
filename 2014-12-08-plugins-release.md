@@ -143,7 +143,7 @@ org.apache.cordova.statusbar@0.1.9
 * **Android** Fix onload attribute within <feature> to be a <param>
 * [CB-8010](https://issues.apache.org/jira/browse/CB-8010) Statusbar colour does not change to orange
 * **Windows** Added checks for running on windows when StatusBar is NOT available
-* [CB-7986](https://issues.apache.org/jira/browse/CB-7986) Add cordova-plugin-statusbar support for **Windows Phone 8.1**
+* [CB-7986](https://issues.apache.org/jira/browse/CB-7986) Add support for **Windows Phone 8.1**
 * [CB-7549](https://issues.apache.org/jira/browse/CB-7549) (Re-fix) `StatusBar` **iOS 8** Landscape issue
 
 org.apache.cordova.vibration@0.3.12
