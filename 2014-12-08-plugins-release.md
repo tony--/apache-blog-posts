@@ -85,7 +85,7 @@ org.apache.cordova.file@1.3.2
 
 * **Android** Gets rid of thread block error in File plugin
 * [CB-7917](https://issues.apache.org/jira/browse/CB-7917) Made tests file.spec.114 - 116 pass for **Windows** platform
-* [CB-7602](https://issues.apache.org/jira/browse/CB-7602): **Android** Fix `isCopyOnItself` logic
+* [CB-7602](https://issues.apache.org/jira/browse/CB-7602) **Android** Fix `isCopyOnItself` logic
 * Use one proxy for both **Windows** and **Windows8** platforms
 * [CB-6994](https://issues.apache.org/jira/browse/CB-6994) **Windows** Fixes result, returned by proxy's write method
 * **Firefox OS** Update `__format__` to match `pathsPrefix`
@@ -129,8 +129,8 @@ org.apache.cordova.inappbrowser@0.5.4
 
 org.apache.cordova.media@0.2.15
 
-* [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android**: Add docs for volume control behaviour, and fix controls not being reset on page navigation
-* [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android**: Make volume buttons control music stream while any audio players are created
+* [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android** Add docs for volume control behaviour, and fix controls not being reset on page navigation
+* [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android** Make volume buttons control music stream while any audio players are created
 * [CB-7945](https://issues.apache.org/jira/browse/CB-7945) Made media.spec.15 and media.spec.16 auto tests green
 
 org.apache.cordova.media-capture@0.3.5
@@ -139,7 +139,7 @@ org.apache.cordova.media-capture@0.3.5
 
 org.apache.cordova.network-information@0.2.14
 
-* [CB-7976](https://issues.apache.org/jira/browse/CB-7976) **Android**: Use webView's context rather than Activity's context for intent receiver
+* [CB-7976](https://issues.apache.org/jira/browse/CB-7976) **Android** Use webView's context rather than Activity's context for intent receiver
 
 org.apache.cordova.splashscreen@0.3.5
 
