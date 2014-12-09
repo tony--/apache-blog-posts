@@ -82,7 +82,7 @@ org.apache.cordova.dialogs@0.2.11
 
 org.apache.cordova.file@1.3.2
 
-* **Android** Gets rid of thread block error in File plugin
+* **Android** Get rid of thread block error
 * [CB-7602](https://issues.apache.org/jira/browse/CB-7602) **Android** Fix `isCopyOnItself` logic
 * Use one proxy for both **Windows** and **Windows8** platforms
 * [CB-6994](https://issues.apache.org/jira/browse/CB-6994) **Windows** Fixes result, returned by proxy's write method
