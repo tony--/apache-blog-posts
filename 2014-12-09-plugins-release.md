@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "Plugins Release: December 8, 2014"
+title:  "Plugins Release: December 9, 2014"
 categories: news
 tags: release plugins
 ---
