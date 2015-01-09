@@ -39,19 +39,16 @@ These platform versions were released recently, and the tools' defaults were upd
 
 * `ConfigParser`: refactor `getPreference()`
 * Parsers: add base parser (`parser.js`) and make platform parsers inherit from it
-* CB-8225 Add Unit Tests for `platform.js/add` function
 * CB-8230 Make `project.properties` optional for **Android** sub-libraries
 * CB-8215 Improve error message when `<source-file>` is missing `target-dir` on **Android**
 * CB-8217 Fix `plugin add --link` when plugin given as relative path
 * CB-8216 Resolve plugin paths relative to original `CWD`
-* CB-7311 Fix tests on **Windows** for `iOS parser`
 * CB-7803 Allow adding any platform on any host OS
 * CB-8155 Do not fail plugin installation from `git url` with `--link`
 * Updates `README` with description of npm commands for this package
 * CB-8129 Adds `npm run cover` command to generate tests coverage report
 * CB-8114 Specify a cache-min-time for plugins
 * CB-8190 Make `plugman config/cache` directory to be customizable via `PLUGMAN_HOME`
-* CB-7863 Fixed broken test run on **Windows 8.1** caused by incorrect use of promises
 * CB-7610 Fix `cordova plugin add d:\path` (or any other non-c: path)
 * CB-8158 added `hasModule` check to browserify code
 * CB-8173 Point to the latest **Ubuntu** version
@@ -61,7 +58,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * browserify: updated require to use `symbollist`
 * Amazon related changes. Added a type named `gradleReference` in framework
 * CB-7736 Update `npm` dep to promote `qs module` to 1.0
-* CB-8086 Fixed framework tests
 * CB-8086 Prefixed subprojects with package name
 * CB-8067 externalized `valid-identifier` it is its own module
 * Added identifier checking for app id, searches for `java+C#` reserved words
