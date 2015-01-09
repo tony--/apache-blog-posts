@@ -69,7 +69,6 @@ These platform versions were released recently, and the tools' defaults were upd
 ## cordova
 
 * CB-6756 Use `cordova_lib.binname` instead of `cordova`
-* CB-8211 Add `--link` option to `cordova plugin add`
 * CB-8129 Adds `npm run cover` command to generate tests coverage report
 * `searchpath` option is added to `restore`
 
