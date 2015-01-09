@@ -56,7 +56,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-8158 adding `symbolList` to `cordova.js`
 * CB-8154 Fix errors adding platforms or plugins
 * `browserify`: updated require to use `symbollist`
-* **Amazon** related changes. Added a type named `gradleReference` in framework
+* **Amazon** Added a type named `gradleReference` in framework
 * CB-7736 Update `npm` dep to promote `qs module` to 1.0
 * CB-8086 Prefixed subprojects with package name
 * CB-8067 externalized `valid-identifier` it is its own module
@@ -84,7 +84,7 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## plugman
 
-* fixing broken link to **Chrome** plugins
+* Fix broken link to **Chrome** plugins
 
 ## Pinned Platform Versions for Cordova CLI 4.2.0
 
