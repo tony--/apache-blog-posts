@@ -45,18 +45,18 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-8216 Resolve plugin paths relative to original `CWD`
 * CB-7803 Allow adding any platform on any host OS
 * CB-8155 Do not fail plugin installation from `git url` with `--link`
-* Updates `README` with description of npm commands for this package
+* Updates `README` with description of `npm` commands for this package
 * CB-8129 Adds `npm run cover` command to generate tests coverage report
-* CB-8114 Specify a cache-min-time for plugins
+* CB-8114 Specify a `cache-min-time` for plugins
 * CB-8190 Make `plugman config/cache` directory to be customizable via `PLUGMAN_HOME`
-* CB-7610 Fix `cordova plugin add d:\path` (or any other non-c: path)
+* CB-7610 Fix `cordova plugin add d:\path` (or any other non-`c:` path)
 * CB-8158 added `hasModule` check to browserify code
 * CB-8173 Point to the latest **Ubuntu** version
 * CB-8179 Point to the latest **WP8** version
 * CB-8158 adding `symbolList` to `cordova.js`
 * CB-8154 Fix errors adding platforms or plugins
-* browserify: updated require to use `symbollist`
-* Amazon related changes. Added a type named `gradleReference` in framework
+* `browserify`: updated require to use `symbollist`
+* **Amazon** related changes. Added a type named `gradleReference` in framework
 * CB-7736 Update `npm` dep to promote `qs module` to 1.0
 * CB-8086 Prefixed subprojects with package name
 * CB-8067 externalized `valid-identifier` it is its own module
@@ -71,7 +71,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-6756 use `cordova_lib.binname` instead of `cordova`
 * CB-8211 Add `--link` option to `cordova plugin add`
 * CB-8129 Adds `npm run cover` command to generate tests coverage report
-* `searchpath` option is added to restore
+* `searchpath` option is added to `restore`
 
 ## cordova-js
 
