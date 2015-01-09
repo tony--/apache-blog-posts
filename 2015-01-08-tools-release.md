@@ -83,8 +83,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-8210 **Android**: Fire events from native via message channel
 * CB-8210 **Android**: Add message channel for events
 * CB-8129 Adds `cover` grunt task to generate tests coverage report
-* **BlackBerry**: revert 4176a7d48b5d236613062fe2c8ba8655fd7b7c12
-* **BlackBerry**: update grunt config to match coho platform name
 * **Amazon** related change: `base64.toArrayBuffer` to convert `base64` strings
 * CB-8158 populating `symbolList`
 
