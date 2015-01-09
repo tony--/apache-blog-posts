@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "Tools Release: January 08, 2015"
+title:  "Tools Release: January 09, 2015"
 categories: news
 tags: release tools
 ---
