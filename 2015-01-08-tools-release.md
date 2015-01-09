@@ -66,7 +66,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * Added a missing "else" keyword.
 * CB-8086 Fixed framework tests.
 * CB-8086 Prefixed subprojects with package name.
-* CB-8067 externalized `valid-identifier` it is it's own module
+* CB-8067 externalized `valid-identifier` it is its own module
 * Added identifier checking for app id, searches for `java+C#` reserved words
 * [CB-6472] Adding content to `-Info.plist` - Unexpected behaviour
 * CB-8053: Including a project reference in a plugin fails on **Windows** platform.
