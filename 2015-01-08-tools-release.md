@@ -39,7 +39,6 @@ These platform versions were released recently, and the tools' defaults were upd
 
 * `ConfigParser`: refactor `getPreference()`
 * Parsers: add base parser (`parser.js`) and make platform parsers inherit from it
-* Parsers: assign methods without overriding the prototype
 * CB-8225 Add Unit Tests for `platform.js/add` function (closes #138)
 * CB-8230 Make `project.properties` optional for **Android** sub-libraries
 * CB-8215 Improve error message when `<source-file>` is missing `target-dir` on **Android**
@@ -54,7 +53,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-8190 Make `plugman config/cache` directory to be customizable via `PLUGMAN_HOME` (close #134)
 * CB-7863 Fixed broken test run on **Windows 8.1** caused by incorrect use of promises (close #132, close #112)
 * CB-7610 Fix `cordova plugin add d:\path` (or any other non-c: path) (close #135)
-* CB-8179 Corrected latest **WP8** version
 * CB-8158 added `hasModule` check to browserify code
 * CB-8173 Point to the latest **Ubuntu** version
 * CB-8179 Point to the latest **WP8** version
@@ -63,7 +61,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * browserify: updated require to use `symbollist`
 * Amazon related changes. Added a type named `gradleReference` in framework
 * CB-7736 Update `npm` dep to promote `qs module` to 1.0
-* Added a missing "else" keyword.
 * CB-8086 Fixed framework tests.
 * CB-8086 Prefixed subprojects with package name.
 * CB-8067 externalized `valid-identifier` it is its own module
@@ -76,7 +73,6 @@ These platform versions were released recently, and the tools' defaults were upd
 ## cordova
 
 * CB-6756 use `cordova_lib.binname` instead of `cordova`
-* Fixed `jshint` issues with `cli.js` (close #199)
 * CB-8211 Add `--link` option to `cordova plugin add` (close #191)
 * CB-8129 Adds `npm run cover` command to generate tests coverage report
 * `searchpath` option is added to restore
@@ -85,14 +81,11 @@ These platform versions were released recently, and the tools' defaults were upd
 
 * CB-8210 Use the correct plugin for `App/CoreAndroid` plugin based on platformVersion
 * CB-8210 **Android**: Fire events from native via message channel (close #97)
-* CB-8158 updated browserify dependency
 * CB-8210 **Android**: Add message channel for events (closes #96)
 * CB-8129 Adds `cover` grunt task to generate tests coverage report (close #95)
 * **BlackBerry**: revert 4176a7d48b5d236613062fe2c8ba8655fd7b7c12
 * **BlackBerry**: update grunt config to match coho platform name
 * **Amazon** related change: `base64.toArrayBuffer` to convert `base64` strings
-* CB-8158 removed extra `symbolList` declartion
-* reverting license header
 * CB-8158 populating `symbolList`
 
 ## plugman
