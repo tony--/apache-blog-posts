@@ -33,7 +33,7 @@ These platform versions were released recently, and the tools' defaults were upd
 
 * Cordova Ubuntu 4.0.0
 * Cordova WP8 3.7.1
-* Cordova BlackBerry  3.7.0
+* Cordova BlackBerry10  3.7.0
 
 ## cordova-lib
 
@@ -54,7 +54,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * CB-8190 Make `plugman config/cache` directory to be customizable via `PLUGMAN_HOME` (close #134)
 * CB-7863 Fixed broken test run on **Windows 8.1** caused by incorrect use of promises (close #132, close #112)
 * CB-7610 Fix `cordova plugin add d:\path` (or any other non-c: path) (close #135)
-* CB-8179 Corrected latest **Wp8** version
+* CB-8179 Corrected latest **WP8** version
 * CB-8158 added `hasModule` check to browserify code
 * CB-8173 Point to the latest **Ubuntu** version
 * CB-8179 Point to the latest **WP8** version
@@ -97,13 +97,13 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## plugman
 
-* fixing broken link to chrome plugins
+* fixing broken link to **Chrome** plugins
 
 ## Pinned Platform Versions for Cordova CLI 4.2.0
 
 * Cordova Amazon-FireOS: 3.6.3
 * Cordova Android: 3.6.4
-* Cordova BlackBerry: 3.7.0
+* Cordova BlackBerry10: 3.7.0
 * Cordova Browser: 3.6.0
 * Cordova FirefoxOS: 3.6.3
 * Cordova iOS: 3.7.0
