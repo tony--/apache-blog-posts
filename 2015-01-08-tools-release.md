@@ -61,12 +61,12 @@ These platform versions were released recently, and the tools' defaults were upd
 * browserify: updated require to use `symbollist`
 * Amazon related changes. Added a type named `gradleReference` in framework
 * CB-7736 Update `npm` dep to promote `qs module` to 1.0
-* CB-8086 Fixed framework tests.
-* CB-8086 Prefixed subprojects with package name.
+* CB-8086 Fixed framework tests
+* CB-8086 Prefixed subprojects with package name
 * CB-8067 externalized `valid-identifier` it is its own module
 * Added identifier checking for app id, searches for `java+C#` reserved words
-* [CB-6472] Adding content to `-Info.plist` - Unexpected behaviour
-* CB-8053: Including a project reference in a plugin fails on **Windows** platform.
+* CB-6472 Adding content to `-Info.plist` - Unexpected behaviour
+* CB-8053 Including a project reference in a plugin fails on **Windows** platform
 * Pass the `searchpath` when installing plugins
 * Add a type named `gradleReference` in framework
 
