@@ -24,7 +24,7 @@ To update your tools:
 
         npm install -g plugman
 
-# Changes include
+# Changes include:
 <!--more-->
 
 ## Platform updates
