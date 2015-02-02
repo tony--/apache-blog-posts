@@ -68,7 +68,6 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7974](https://issues.apache.org/jira/browse/CB-7974) Cancel timeout timer if view is destroyed
 * [CB-7940](https://issues.apache.org/jira/browse/CB-7940) Disable exec bridge if bridgeSecret is wrong
 * [CB-7758](https://issues.apache.org/jira/browse/CB-7758) Allow content-url-hosted pages to access the bridge
-* [CB-7726](https://issues.apache.org/jira/browse/CB-7726) fix typo in gitignore: ant-built -> ant-build
 * Replacing Math.random() with something a little more random.
 * [CB-6511](https://issues.apache.org/jira/browse/CB-6511) Fixes build for android when app name contains unicode characters.
 * [CB-7707](https://issues.apache.org/jira/browse/CB-7707) Added multipart PluginResult
@@ -85,7 +84,6 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7493](https://issues.apache.org/jira/browse/CB-7493)  Adds test-build command to package.json
 * [CB-3445](https://issues.apache.org/jira/browse/CB-3445)  Make minSdkVersion and base versionCode settable through env vars
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Make key password optional & prompt for it when missing
-* [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Fix gradle not copying all archs to out/ (broken by prev commit)
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Use aligned apk rather than unaligned apk when sorting
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7510)  Speed up gradle builds by building debug or release (not both)
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Add gradle environment vars for signing apks
@@ -101,10 +99,8 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7330](https://issues.apache.org/jira/browse/CB-7330)  Don't run check_reqs for bin/create.
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Read android target from project.properties if possible
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Determine SDK and build tools version dynamcally at build time
-* [CB-7463](https://issues.apache.org/jira/browse/CB-7463)  Adding licence to project template gradle file
 * [CB-7511](https://issues.apache.org/jira/browse/CB-7511)  Auto-detect Android SDK when Android Studio is installed
 * [CB-7463](https://issues.apache.org/jira/browse/CB-7463)  Looked at the Apache BigTop git, gradle uses C-style comments
-* [CB-7463](https://issues.apache.org/jira/browse/CB-7463)  Adding licences.  I don't know what the gradle syntax is for comments, that still needs to be done.
 * [CB-7460](https://issues.apache.org/jira/browse/CB-7460)  Fixing bug with KitKat where the background colour would override the CSS colours on the application
 
 
