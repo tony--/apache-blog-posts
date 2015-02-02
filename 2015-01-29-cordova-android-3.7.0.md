@@ -30,7 +30,7 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 
 ## What's new in Android
 
-* [CB-8328](https://issues.apache.org/jira/browse/CB-8328) Allow plugins to handle certificate challenges (close #150)
+* [CB-8328](https://issues.apache.org/jira/browse/CB-8328) Allow plugins to handle certificate challenges
 * [CB-8201](https://issues.apache.org/jira/browse/CB-8201) Add support for auth dialogs into Cordova Android
 * [CB-8255](https://issues.apache.org/jira/browse/CB-8255) Pass `arch` to gradle regardless of `cdvBuildMultipleApks`
 * [CB-8255](https://issues.apache.org/jira/browse/CB-8255) Fix `cordova/build --gradleVar=--foo=bar` stripping off `=bar`
@@ -38,13 +38,13 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-8329](https://issues.apache.org/jira/browse/CB-8239) Cancel outstanding ActivityResult requests when a new startActivityForResult occurs
 * [CB-8280](https://issues.apache.org/jira/browse/CB-8280) android: Don't apply SplashScreenDelay when .show() is called explicitly
 * [CB-4914](https://issues.apache.org/jira/browse/CB-4914) Fix build whitespace issue
-* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Remove unused onDestroy channel (close #146)
+* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Remove unused onDestroy channel
 * [CB-8026](https://issues.apache.org/jira/browse/CB-8026) Bumping up Android Version and setting it up to allow third-party cookies.  This might change later.
 * [CB-8255](https://issues.apache.org/jira/browse/CB-8255) Use properties rather than environment variables for gradle settings
 * [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Drop events from native that occur before start-up
-* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Use PluginResult for various events from native (close #144)
-* [CB-8168](https://issues.apache.org/jira/browse/CB-8168) Add support for `cordova/run --list` (closes #139)
-* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Use PluginResult instead of sendJavascript() for keyboard events (close #142)
+* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Use PluginResult for various events from native
+* [CB-8168](https://issues.apache.org/jira/browse/CB-8168) Add support for `cordova/run --list`
+* [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Use PluginResult instead of sendJavascript() for keyboard events
 * [CB-8228](https://issues.apache.org/jira/browse/CB-8228) Gradle: Allow plugins to use Maven dependencies
 * [CB-8229](https://issues.apache.org/jira/browse/CB-8229) Gradle: Add CordovaLib as a dependency to all plugin sub-projects
 * [CB-7980](https://issues.apache.org/jira/browse/CB-7980) Add --minSdkVersion and --versionCode flags to cordova/build command
@@ -71,7 +71,7 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7726](https://issues.apache.org/jira/browse/CB-7726) fix typo in gitignore: ant-built -> ant-build
 * Replacing Math.random() with something a little more random.
 * [CB-6511](https://issues.apache.org/jira/browse/CB-6511) Fixes build for android when app name contains unicode characters.
-* [CB-7707](https://issues.apache.org/jira/browse/CB-7707) Added multipart PluginResult (close #125)
+* [CB-7707](https://issues.apache.org/jira/browse/CB-7707) Added multipart PluginResult
 * [CB-7714](https://issues.apache.org/jira/browse/CB-7714) Teach check_reqs about brew's install location for android SDK
 * [CB-6837](https://issues.apache.org/jira/browse/CB-6837) Fix leaked window when hitting back button while alert being rendered
 * [CB-7674](https://issues.apache.org/jira/browse/CB-7674)  Added sleep to avoid null error after most recent change to not break API
