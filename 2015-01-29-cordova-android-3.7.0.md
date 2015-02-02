@@ -39,7 +39,7 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-8280](https://issues.apache.org/jira/browse/CB-8280) Don't apply `SplashScreenDelay` when `.show()` is called explicitly
 * [CB-4914](https://issues.apache.org/jira/browse/CB-4914) Fix build whitespace issue
 * [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Remove unused `onDestroy` channel
-* [CB-8026](https://issues.apache.org/jira/browse/CB-8026) Bumping up Android Version and setting it up to allow third-party cookies.  This might change later.
+* [CB-8026](https://issues.apache.org/jira/browse/CB-8026) Bumping up Android Version and setting it up to allow third-party cookies *This might change later*
 * [CB-8255](https://issues.apache.org/jira/browse/CB-8255) Use properties rather than environment variables for **gradle** settings
 * [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Drop events from native that occur before start-up
 * [CB-8210](https://issues.apache.org/jira/browse/CB-8210) Use `PluginResult` for various events from native
@@ -68,13 +68,13 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7974](https://issues.apache.org/jira/browse/CB-7974) Cancel timeout timer if view is destroyed
 * [CB-7940](https://issues.apache.org/jira/browse/CB-7940) Disable exec bridge if bridgeSecret is wrong
 * [CB-7758](https://issues.apache.org/jira/browse/CB-7758) Allow content-url-hosted pages to access the bridge
-* Replacing `Math.random()` with something a little more random.
-* [CB-6511](https://issues.apache.org/jira/browse/CB-6511) Fixes build for android when app name contains unicode characters.
+* Replacing `Math.random()` with something a little more random
+* [CB-6511](https://issues.apache.org/jira/browse/CB-6511) Fixes build for android when app name contains unicode characters
 * [CB-7707](https://issues.apache.org/jira/browse/CB-7707) Added multipart `PluginResult`
 * [CB-7714](https://issues.apache.org/jira/browse/CB-7714) Teach `check_reqs` about `brew`'s install location for android SDK
 * [CB-6837](https://issues.apache.org/jira/browse/CB-6837) Fix leaked window when hitting back button while alert being rendered
 * [CB-7674](https://issues.apache.org/jira/browse/CB-7674)  Added sleep to avoid null error after most recent change to not break API
-* [CB-7674](https://issues.apache.org/jira/browse/CB-7674)  move preference activation back into `onCreate()`
+* [CB-7674](https://issues.apache.org/jira/browse/CB-7674)  Move preference activation back into `onCreate()`
 * [CB-7634](https://issues.apache.org/jira/browse/CB-7634)  Detect `JAVA_HOME` properly on Ubuntu
 * [CB-7410](https://issues.apache.org/jira/browse/CB-7410)  update the docs to match the actual title
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Use a standard `build.gradle` for all plugins
@@ -89,14 +89,14 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Add gradle environment vars for signing apks
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Change **gradle android plugins** from **0.10** -> **0.12**
 * [CB-7536](https://issues.apache.org/jira/browse/CB-7512)  `check_reqs`: **Windows** tweaks + sdk manager error message
-* [CB-7499](https://issues.apache.org/jira/browse/CB-7499)  support RTL text direction
+* [CB-7499](https://issues.apache.org/jira/browse/CB-7499)  Support RTL text direction
 * [CB-7554](https://issues.apache.org/jira/browse/CB-7554)  Use x86 apk when deploying to an intel device / emulator
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Fix logic for detecting SDK directory
 * [CB-7536](https://issues.apache.org/jira/browse/CB-7536)  Tweak Android SDK not installed error message.
 * [CB-7536](https://issues.apache.org/jira/browse/CB-7536)  Tweak error messages for missing JDK / SDK / AVDs
 * [CB-7511](https://issues.apache.org/jira/browse/CB-7511)  Auto-detect android sdk when using stand-alone sdk installer
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Copy `cordova.gradle` file to project root on build
-* [CB-7330](https://issues.apache.org/jira/browse/CB-7330)  Don't run `check_reqs` for `bin/create`.
+* [CB-7330](https://issues.apache.org/jira/browse/CB-7330)  Don't run `check_reqs` for `bin/create`
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Read android target from `project.properties` if possible
 * [CB-7512](https://issues.apache.org/jira/browse/CB-7512)  Determine SDK and build tools version dynamcally at build time
 * [CB-7511](https://issues.apache.org/jira/browse/CB-7511)  Auto-detect Android SDK when Android Studio is installed
