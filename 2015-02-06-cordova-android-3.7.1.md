@@ -20,7 +20,7 @@ To upgrade:
 
 To add it explicitly:
 
-    cordova platform add android@3.7.0
+    cordova platform add android@3.7.1
 
 
 
