@@ -3,12 +3,12 @@ layout: post
 author:
     name: Joe Bowser
     url: https://twitter.com/infil00p
-title:  "Apache Cordova Android 3.7.0"
+title:  "Apache Cordova Android 3.7.1"
 categories: announcements
 tags: news releases
 ---
 
-We are happy to announce that `Cordova Android 3.7.0` has been released!
+We are happy to announce that `Cordova Android 3.7.1` has been released!
 
 This release has numerous bug fixes, and sets the target-sdk to android-21 (which yields a pretty good graphics speed-up on Lollipop devices!). It will be the default Android version when the cordova-cli 4.1.0 is released.
 
@@ -16,7 +16,7 @@ To upgrade:
 
     npm install -g cordova
     cd my_project
-    cordova platform update android@3.7.0
+    cordova platform update android@3.7.1
 
 To add it explicitly:
 
@@ -30,6 +30,7 @@ For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http
 
 ## What's new in Android
 
+* [CB-8411](https://issues.apache.org/jira/browse/CB-8411) Fixed regression with view hierarchy not being initialized before plugins.
 * [CB-8328](https://issues.apache.org/jira/browse/CB-8328) Allow plugins to handle certificate challenges
 * [CB-8201](https://issues.apache.org/jira/browse/CB-8201) Add support for auth dialogs into Cordova Android
 * [CB-8017](https://issues.apache.org/jira/browse/CB-8017) Add support for `<input type=file>` for Lollipop
