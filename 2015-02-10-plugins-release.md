@@ -45,7 +45,7 @@ Changes include:
 <!--more-->
 
 org.apache.cordova.camera@0.3.5
-* [CB-8351](https://issues.apache.org/jira/browse/CB-8351) ios: Stop using now-deprecated [NSData base64EncodedString]
+* [CB-8351](https://issues.apache.org/jira/browse/CB-8351) ios: Stop using now-deprecated `[NSData base65EncodedString]`
 * [CB-8351](https://issues.apache.org/jira/browse/CB-8351) ios: Stop using now-deprecated integerValueForKey: class extension
 * [CB-8351](https://issues.apache.org/jira/browse/CB-8351) ios: Use argumentForIndex rather than NSArray extension
 * [CB-8032](https://issues.apache.org/jira/browse/CB-8032) ios: Add nativeURL external method support for CDVFileSystem->makeEntryForPath:isDirectory:
