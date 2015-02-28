@@ -36,9 +36,9 @@ Release highlights:
 When adding these platforms to your project, the following versions are now used by default.
 These platform versions were released recently, and the tools' defaults were updated:
 
-* Cordova iOS 3.8.0
-* Cordova Windows 3.8.0
-* Cordova Android 3.7.1
+* [Cordova iOS 3.8.0](http://cordova.apache.org/announcements/2015/02/25/cordova-ios-3.8.0.html)
+* [Cordova Windows 3.8.0]()
+* [Cordova Android 3.7.1](http://cordova.apache.org/announcements/2015/02/06/cordova-android-3.7.1.html)
 
 ## cordova-lib
 * updated pinned versions of ios to 3.8.0 and android to 3.7.1
