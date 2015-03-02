@@ -64,7 +64,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-5696](https://issues.apache.org/jira/browse/CB-5696) find ios project directory using the xcode project file
 * [CB-8373](https://issues.apache.org/jira/browse/CB-8373) android: Add gradle references to project.properties rather than build.gradle
 * [CB-8370](https://issues.apache.org/jira/browse/CB-8370) Make "plugman publish" without args default to CWD
-* Fix publish type-error introduced in recent commit 15adc1b9fcc069438f5
 * [CB-8366](https://issues.apache.org/jira/browse/CB-8366) android: Remove empty `<framework>` directory upon uninstall
 * [CB-6973](https://issues.apache.org/jira/browse/CB-6973) Enable JSHint for spec-cordova
 * [CB-8239](https://issues.apache.org/jira/browse/CB-8239) Add support for git urls to 'cordova platform add'
