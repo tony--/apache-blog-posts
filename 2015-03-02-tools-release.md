@@ -46,6 +46,7 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## cordova-lib
 * Updated pinned versions of **iOS** to 3.8.0 and **Android** to 3.7.1
+* [CB-8284](https://issues.apache.org/jira/browse/CB-8284) Revert `npm` dependency due to issues with registry
 * [CB-8524](https://issues.apache.org/jira/browse/CB-8524) Switched to the latest **Windows** release
 * changed `createpackage.json` keyword to `ecosystem:cordova`
 * [CB-8448](https://issues.apache.org/jira/browse/CB-8448) Add support for activities
@@ -77,7 +78,6 @@ These platform versions were released recently, and the tools' defaults were upd
 * Make all ad-hoc `plugin.xml` parsing use `PluginInfo` instead
 * Make all usages of `PluginInfo` use `PluginInfoProvider` instead
 * Add `PluginInfoProvider` for better caching of `PluginInfo`
-* [CB-8284](https://issues.apache.org/jira/browse/CB-8284) Revert `npm` dependency due to issues with registry
 * [CB-8223](https://issues.apache.org/jira/browse/CB-8223) Expose `config.xml` in the Browser platform
 * [CB-8168](https://issues.apache.org/jira/browse/CB-8168) `--list` support for cordova-lib
 * **FireOS** Improve error message when `<source-file>` is missing `target-dir`
