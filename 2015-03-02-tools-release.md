@@ -123,7 +123,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8416](https://issues.apache.org/jira/browse/CB-8416) added `plugman createpackagejson .` command to generate a package.json file from plugin.xml
 * [CB-8370](https://issues.apache.org/jira/browse/CB-8370) Update documentation for `plugman publish` without args
 
-## Pinned Platform Versions for Cordova CLI 4.2.0
+## Pinned Platform Versions for Cordova CLI 4.3.0
 
 * Cordova Amazon-FireOS: 3.6.3
 * Cordova Android: 3.7.1
