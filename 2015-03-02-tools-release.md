@@ -26,6 +26,7 @@ To update your tools:
 
 Release highlights:
 
+* **Cordova-iOS** developers will need to update their `iOS-deploy` dependency to launch on **iOS** devices. Please run `npm install -g ios-deploy` to install the latest version `1.4.0`.
 * You can now save your list of installed plugins and platforms using the `--save` command when adding platforms and plugins to your project.
 Saved platforms and plugins are automagically restored during prepare.
 Ex. `cordova platform add android --save`.
@@ -42,7 +43,7 @@ When adding these platforms to your project, the following versions are now used
 These platform versions were released recently, and the tools' defaults were updated:
 
 * [Cordova iOS 3.8.0](http://cordova.apache.org/announcements/2015/02/25/cordova-ios-3.8.0.html)
-* [Cordova Windows 3.8.0]()
+* [Cordova Windows 3.8.0](http://cordova.apache.org/announcements/2015/02/27/cordova-windows-3.8.0.html)
 * [Cordova Android 3.7.1](http://cordova.apache.org/announcements/2015/02/06/cordova-android-3.7.1.html)
 
 ## cordova-lib
