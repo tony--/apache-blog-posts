@@ -8,6 +8,8 @@ categories: announcements
 tags: news releases
 ---
 
+**UPDATE:** To deploy to iOS devices, developers will have to update their `ios-deploy` dependency to the latest release. Run `npm install ios-deploy -g` to download the latest release of version `1.4.0`. 
+
 We are happy to announce that `Cordova iOS 3.8.0` has been released!
 
 This release has various bug fixes, and will be the default iOS version when the cordova-cli 4.3.0 is released.
