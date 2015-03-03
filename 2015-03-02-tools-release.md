@@ -26,11 +26,12 @@ To update your tools:
 
 Release highlights:
 
-* You can manage plugin and platform versions using the `--save` command when adding platforms and plugins to your project.
+* You can now save your list of installed plugins and platforms using the `--save` command when adding platforms and plugins to your project.
+Saved platforms and plugins are automagically restored during prepare.
 Ex. `cordova platform add android --save`.
 This should make it easier developing cordova projects among a team.
 * Plugin authors can use the new command `plugman createpackagejson <plugin_path>` to add a `package.json` file to their plugins.
-* We are going to be doing a blog post soon about transitioning plugins to `npm` with some more details.
+* We are preparing to transition our plugin hosting over to npm.  We will be doing a detailed blog post soon.
 **Stay tuned**.
 
 # Changes include:
