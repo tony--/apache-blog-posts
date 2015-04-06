@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "Apache Cordova Windows & Windows Phone 3.7.0"
+title:  "Apache Cordova Windows &amp; Windows Phone 3.7.0"
 categories: announcements
 tags: news releases
 ---
