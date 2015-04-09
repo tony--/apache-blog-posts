@@ -11,7 +11,7 @@ tags: news releases
 We are happy to announce that `Cordova Android 4.0.0` has been released!
 
 This release adds significant functionality, and also introduces a number
-of breaking changes. Mostly though, it adds first-class support for [Crosswalk](https://crosswalk-project.org/)!
+of breaking changes. Mostly though, it adds first-class support for [Crosswalk](https://crosswalk-project.org/) -- a bundled modern WebView!
 
 To upgrade:
 
@@ -21,14 +21,16 @@ To upgrade:
 <!--more-->
 
 ## Major Changes
-* Support for pluggable WebViews (e.g. [cordova-plugin-crosswalk-webview](https://www.npmjs.com/package/cordova-plugin-crosswalk-webview)
+* Support for pluggable WebViews!
+    * [Crosswalk](https://crosswalk-project.org/) can be added by installing the [cordova-plugin-crosswalk-webview](https://www.npmjs.com/package/cordova-plugin-crosswalk-webview) plugin.
 * Splash screen functionality is now provided via plugin
   * You will need to add the new [cordova-plugin-splashscreen](https://github.com/apache/cordova-plugin-splashscreen) plugin to continue using a splash screen
-* Whitelist functionality is now provided via plugin
-  * The whitelist has been enhanced to be more secure and configurable
-  * Setting of Content-Security-Policy is now supported by the framework (see details in plugin readme)
-  * You will need to add the new [cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist) plugin
-  * Legacy whitelist behaviour is still available via plugin (although not recommended).
+* Whitelist functionality is revamped
+  * You will need to add the new [cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist) plugin to continue using a whitelist
+  * Setting a Content-Security-Policy (CSP) is now supported and is the recommended way to whitelist (see details in plugin readme)
+  * Network requests are *blocked* by default without the plugin, so install this plugin even to allow all requests, and even if you are using CSP.
+  * This new whitelist is enhanced to be more secure and configurable, but the Legacy whitelist behaviour is still available via a separate plugin (not recommended).
+  * Note: while not strictly part of this release, the latest default app created by cordova-cli will include this plugin by default.
 
 ## Changes For Plugin Developers:
 
