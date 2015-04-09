@@ -56,3 +56,4 @@ To upgrade:
 * [CB-8545](https://issues.apache.org/jira/browse/CB-8545) Don't add a layout as a parent of the WebView
 * [CB-7159](https://issues.apache.org/jira/browse/CB-7159) BackgroundColor not used when `<html style="opacity:0">`, nor during screen rotation
 * [CB-6630](https://issues.apache.org/jira/browse/CB-6630) Removed OkHttp from core library. It's now available as a plugin: [cordova-plugin-okhttp](https://www.npmjs.com/package/cordova-plugin-okhttp)
+* [CB-8484](https://issues.apache.org/jira/browse/CB-8484) Support for creating signed archive for Android
