@@ -22,7 +22,7 @@ To upgrade:
 
 ## Major Changes
 * Support for pluggable WebViews!
-    * [Crosswalk](https://crosswalk-project.org/) can be added by installing the [cordova-plugin-crosswalk-webview](https://www.npmjs.com/package/cordova-plugin-crosswalk-webview) plugin.
+    * [Crosswalk](https://crosswalk-project.org/) can be added by installing the [cordova-plugin-crosswalk-webview](https://github.com/MobileChromeApps/cordova-crosswalk-engine) plugin.
 * Splash screen functionality is now provided via plugin
   * You will need to add the new [cordova-plugin-splashscreen](https://github.com/apache/cordova-plugin-splashscreen) plugin to continue using a splash screen
 * Whitelist functionality is revamped
@@ -57,5 +57,5 @@ To upgrade:
 * [CB-8548](https://issues.apache.org/jira/browse/CB-8548) Use debug-signing.properties and release-signing.properties when they exist
 * [CB-8545](https://issues.apache.org/jira/browse/CB-8545) Don't add a layout as a parent of the WebView
 * [CB-7159](https://issues.apache.org/jira/browse/CB-7159) BackgroundColor not used when `<html style="opacity:0">`, nor during screen rotation
-* [CB-6630](https://issues.apache.org/jira/browse/CB-6630) Removed OkHttp from core library. It's now available as a plugin: [cordova-plugin-okhttp](https://www.npmjs.com/package/cordova-plugin-okhttp)
+* [CB-6630](https://issues.apache.org/jira/browse/CB-6630) Removed OkHttp from core library. It's now available as a plugin: [cordova-plugin-okhttp](https://github.com/MobileChromeApps/cordova-plugin-okhttp)
 * [CB-8484](https://issues.apache.org/jira/browse/CB-8484) Support for creating signed archive for Android
