@@ -13,10 +13,14 @@ We are happy to announce that `Cordova Android 4.0.0` has been released!
 This release adds significant functionality, and also introduces a number
 of breaking changes. Mostly though, it adds first-class support for [Crosswalk](https://crosswalk-project.org/) -- a bundled modern WebView!
 
-To upgrade:
+`cordova-android@4.0.0` will be the default android version in the next
+version of `cordova`. If you just can't wait though, you can try it out now:
 
     cd my_project
     cordova platform update android@4.0.0
+    cordova plugin add https://github.com/apache/cordova-plugin-whitelist.git#r1.0.0
+    # To install Crosswalk (optional):
+    cordova plugin add https://github.com/MobileChromeApps/cordova-plugin-crosswalk-webview.git#1.0.0
 
 <!--more-->
 
@@ -38,7 +42,7 @@ To upgrade:
   * Android Studio is now fully supported, and recommended over Eclipse
   * Use `cordova plugin add ../path/to/my-plugin --link` to symlink .java files for development
 * Build using Gradle
-  * All builds [use Gradle by default](Android%20Shell%20Tool%20Guide_building_with_gradle), instead of Ant
+  * All builds [use Gradle by default](https://cordova.apache.org/docs/en/edge/guide_platforms_android_tools.md.html#Android%20Shell%20Tool%20Guide_building_with_gradle), instead of Ant
   * Plugins can add their own gradle build steps!
   * Plugins can depend on Maven libraries using `<framework>` tags
 * New APIs: `onStart`, `onStop`, `onConfigurationChanged`
