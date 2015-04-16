@@ -10,7 +10,7 @@ tags: plugins announcement releass
 
 The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm](://www.npmjs.org/)**! We are also encouraging third party plugin developers to start publishing their plugins to npm! To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version 5.0.0 or higher. 
 
-With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the npm ecosystem. All of our core plugins have changed their IDs from `org.apache.cordova.*` to `cordova-plugin-*`. Developers can now install a plugin with the command `cordova plugin add cordova-plugin-device`. Using the new ID will fetch the plugin directly from **npm**. 
+With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the npm ecosystem. All of our core plugins have changed their IDs from `org.apache.cordova.*` to `cordova-plugin-*`. Developers can now install core plugins using the new IDs, for example `cordova plugin add cordova-plugin-device`.  Specifying a new ID will fetch the plugin directly from **npm**. 
 
 Our current **Cordova plugins registry** (CPR), [plugins.cordova.io](http://plugins.cordova.io) will continue to be operational for at least 6 months (October 15th, 2015) as we help plugin developers with transitioning over to **npm**. This will also allow current **Cordova** developers to upgrade their `CLI` to version 5.0.0 or higher. We will be switching **CPR** to read-only on July 15th, 2015.
 
@@ -26,27 +26,27 @@ To find plugins on **npm**, search for [ecosystem:cordova](https://www.npmjs.com
 ----
 The following plugins were updated today:
 
-cordova-plugin-battery-status@1.0.0
-cordova-plugin-camera@1.0.0
-cordova-plugin-console@1.0.0
-cordova-plugin-contacts@1.0.0
-cordova-plugin-device@1.0.0
-cordova-plugin-device-motion@1.0.0
-cordova-plugin-device-orientation@1.0.0
-cordova-plugin-dialogs@1.0.0
-cordova-plugin-file@2.0.0
-cordova-plugin-file-transfer@1.0.0
-cordova-plugin-geolocation@1.0.0
-cordova-plugin-globalization@1.0.0
-cordova-plugin-inappbrowser@1.0.0
-cordova-plugin-legacy-whitelist@1.0.1
-cordova-plugin-media@1.0.0
-cordova-plugin-media-capture@1.0.0
-cordova-plugin-network-information@1.0.0
-cordova-plugin-splashscreen@2.0.0
-cordova-plugin-statusbar@1.0.0
-cordova-plugin-test-framework@1.0.0
-cordova-plugin-vibration@1.0.0
+* cordova-plugin-battery-status@1.0.0
+* cordova-plugin-camera@1.0.0
+* cordova-plugin-console@1.0.0
+* cordova-plugin-contacts@1.0.0
+* cordova-plugin-device@1.0.0
+* cordova-plugin-device-motion@1.0.0
+* cordova-plugin-device-orientation@1.0.0
+* cordova-plugin-dialogs@1.0.0
+* cordova-plugin-file@2.0.0
+* cordova-plugin-file-transfer@1.0.0
+* cordova-plugin-geolocation@1.0.0
+* cordova-plugin-globalization@1.0.0
+* cordova-plugin-inappbrowser@1.0.0
+* cordova-plugin-legacy-whitelist@1.0.1
+* cordova-plugin-media@1.0.0
+* cordova-plugin-media-capture@1.0.0
+* cordova-plugin-network-information@1.0.0
+* cordova-plugin-splashscreen@2.0.0
+* cordova-plugin-statusbar@1.0.0
+* cordova-plugin-test-framework@1.0.0
+* cordova-plugin-vibration@1.0.0
 
 ----
 To update your existing plugins, you need to update your version of `Cordova CLI` to version 5.0.0.
